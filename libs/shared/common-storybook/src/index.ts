@@ -1,1 +1,1 @@
-export * from './lib/common-storybook';
+export { default as mainConfig } from './main';
