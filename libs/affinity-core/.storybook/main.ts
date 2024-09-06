@@ -3,10 +3,7 @@ import { mainConfig } from '@as-fission/common-storybook';
 
 const config: StorybookConfig = {
   ...mainConfig,
-  stories: [
-    '../src/lib/**/*.@(mdx|stories.@(js|jsx|ts|tsx))',
-    '../../affinity-core/src/**/*.@(mdx|stories.@(js|jsx|ts|tsx))',
-  ],
+  stories: ['../src/lib/**/*.@(mdx|stories.@(js|jsx|ts|tsx))'],
 };
 
 export default config;

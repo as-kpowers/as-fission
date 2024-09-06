@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@as-fission/affinity-core": ["libs/affinity-core/src/index.ts"],
       "@as-fission/affinity-storybook": [
         "libs/affinity-storybook/src/index.ts"
       ],
