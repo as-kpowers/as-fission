@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@as-fission/affinity-core": ["libs/affinity-core/src/index.ts"],
+      "@as-fission/affinity-plugin": ["tools/affinity-plugin/src/index.ts"],
       "@as-fission/affinity-storybook": [
         "libs/affinity-storybook/src/index.ts"
       ],
