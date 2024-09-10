@@ -1,0 +1,9 @@
+{
+  "name": "affinity-react-icons",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/affinity/react-icons/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project affinity-react-icons --web",
+  "targets": {}
+}

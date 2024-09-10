@@ -15,14 +15,16 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@as-fission/affinity-core": ["libs/affinity-core/src/index.ts"],
       "@as-fission/affinity-plugin": ["tools/affinity-plugin/src/index.ts"],
-      "@as-fission/affinity-storybook": [
-        "libs/affinity-storybook/src/index.ts"
+      "@as-fission/affinity/core": ["libs/affinity/core/src/index.ts"],
+      "@as-fission/affinity/react-icons": [
+        "libs/affinity/react-icons/src/index.ts"
       ],
       "@as-fission/common-storybook": [
         "libs/shared/common-storybook/src/index.ts"
-      ]
+      ],
+      "@as-fission/storybook-host": ["libs/storybook-host/src/index.ts"],
+      "@as-fission/style-dictionary": ["libs/style-dictionary/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

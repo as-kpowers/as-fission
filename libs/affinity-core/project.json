@@ -1,9 +1,0 @@
-{
-  "name": "affinity-core",
-  "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "libs/affinity-core/src",
-  "projectType": "library",
-  "tags": [],
-  "// targets": "to see all targets run: nx show project affinity-core --web",
-  "targets": {}
-}
