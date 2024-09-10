@@ -5,7 +5,7 @@ const config: StorybookConfig = {
   ...mainConfig,
   stories: [
     '../src/lib/**/*.@(mdx|stories.@(js|jsx|ts|tsx))',
-    '../../affinity-core/src/**/*.@(mdx|stories.@(js|jsx|ts|tsx))',
+    '../../affinity/core/src/**/*.@(mdx|stories.@(js|jsx|ts|tsx))',
   ],
 };
 
