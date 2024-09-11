@@ -1,6 +1,7 @@
 import { Tree } from '@nx/devkit';
 import { Linter } from '@nx/eslint';
 import { libraryGenerator as reactLibraryGenerator } from '@nx/react';
+
 import { LibraryGeneratorSchema } from './schema';
 
 export async function libraryGenerator(
@@ -11,7 +12,7 @@ export async function libraryGenerator(
     ...options,
     projectNameAndRootFormat: 'as-provided',
     linter: Linter.EsLint,
-    style: 'css',
+    style: 'styled-components',
     unitTestRunner: 'vitest',
   });
 
